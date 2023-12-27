@@ -1,0 +1,96 @@
+[
+    {
+        "id": "ead1eaa6.3332c",
+        "type": "tab",
+        "label": "Project1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d143592c.4a11f",
+        "type": "mqtt out",
+        "z": "ead1eaa6.3332c",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "89edf270.14f7a8",
+        "x": 990,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "dd39743e.b71cc8",
+        "type": "tcp in",
+        "z": "ead1eaa6.3332c",
+        "name": "From TinyOs",
+        "server": "server",
+        "host": "",
+        "port": "1234",
+        "datamode": "stream",
+        "datatype": "buffer",
+        "newline": "",
+        "topic": "",
+        "base64": false,
+        "x": 220,
+        "y": 300,
+        "wires": [
+            [
+                "c213b031.bdc23"
+            ]
+        ]
+    },
+    {
+        "id": "dca3c6d4.188d68",
+        "type": "debug",
+        "z": "ead1eaa6.3332c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 690,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c213b031.bdc23",
+        "type": "function",
+        "z": "ead1eaa6.3332c",
+        "name": "",
+        "func": "var CHANNEL_ID = 2228973; \nm = {};\nm.payload = {};\n\nvar buffer = msg.payload;\nvar field = buffer[5]; \nvar val = buffer[7];\n\nm.topic = 'channels/'+CHANNEL_ID+'/publish'; \nm.payload='field'+(field+1)+'='+val+'&status=MQTTPUBLISH';\n\nreturn m;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 570,
+        "y": 460,
+        "wires": [
+            [
+                "dca3c6d4.188d68",
+                "d143592c.4a11f"
+            ]
+        ]
+    },
+    {
+        "id": "89edf270.14f7a8",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "MQTT_IoT_Project_thingspeak",
+        "broker": "mqtt3.thingspeak.com",
+        "port": "1883",
+        "clientid": "NwcWFQQ3HS00IBgKNB46GTw",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": false,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]

@@ -1,0 +1,635 @@
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac....
+Initializing radio channels....
+    using topology file: topology.txt
+    using noise file: meyer-heavy.txt
+Initializing simulator....
+Activate debug message on channel init
+Activate debug message on channel boot
+Activate debug message on channel timer
+Activate debug message on channel led_0
+Activate debug message on channel led_1
+Activate debug message on channel led_2
+Activate debug message on channel radio
+Activate debug message on channel radio_send
+Activate debug message on channel radio_rec
+Activate debug message on channel radio_pack
+Creating node 0...
+>>>Will boot at time 0 [sec]
+Creating node 1...
+>>>Will boot at time 0 [sec]
+Creating node 2...
+>>>Will boot at time 0 [sec]
+Creating node 3...
+>>>Will boot at time 0 [sec]
+Creating node 4...
+>>>Will boot at time 0 [sec]
+Creating node 5...
+>>>Will boot at time 0 [sec]
+Creating node 6...
+>>>Will boot at time 0 [sec]
+Creating node 7...
+>>>Will boot at time 0 [sec]
+Creating node 8...
+>>>Will boot at time 0 [sec]
+Creating radio channels...
+>>>Setting radio channel from node  0  to node  1  with gain  -60.0  dBm
+>>>Setting radio channel from node  1  to node  0  with gain  -60.0  dBm
+>>>Setting radio channel from node  0  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  0  with gain  -60.0  dBm
+>>>Setting radio channel from node  0  to node  3  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  0  with gain  -60.0  dBm
+>>>Setting radio channel from node  0  to node  4  with gain  -60.0  dBm
+>>>Setting radio channel from node  4  to node  0  with gain  -60.0  dBm
+>>>Setting radio channel from node  0  to node  5  with gain  -60.0  dBm
+>>>Setting radio channel from node  5  to node  0  with gain  -60.0  dBm
+>>>Setting radio channel from node  0  to node  6  with gain  -60.0  dBm
+>>>Setting radio channel from node  6  to node  0  with gain  -60.0  dBm
+>>>Setting radio channel from node  0  to node  7  with gain  -60.0  dBm
+>>>Setting radio channel from node  7  to node  0  with gain  -60.0  dBm
+>>>Setting radio channel from node  0  to node  8  with gain  -60.0  dBm
+>>>Setting radio channel from node  8  to node  0  with gain  -60.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading:##Done!
+>>>Creating noise model for node: 0
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+>>>Creating noise model for node: 3
+>>>Creating noise model for node: 4
+>>>Creating noise model for node: 5
+>>>Creating noise model for node: 6
+>>>Creating noise model for node: 7
+>>>Creating noise model for node: 8
+Start simulation with TOSSIM! 
+
+
+
+DEBUG (0): Application booted.
+DEBUG (8): Application booted.
+DEBUG (2): Application booted.
+DEBUG (6): Application booted.
+DEBUG (5): Application booted.
+DEBUG (1): Application booted.
+DEBUG (4): Application booted.
+DEBUG (3): Application booted.
+DEBUG (7): Application booted.
+DEBUG (2): Start done on node 2!
+DEBUG (0): Start done on node 0!
+DEBUG (8): Start done on node 8!
+DEBUG (7): Start done on node 7!
+DEBUG (3): Start done on node 3!
+DEBUG (6): Start done on node 6!
+DEBUG (4): Start done on node 4!
+DEBUG (1): Start done on node 1!
+DEBUG (5): Start done on node 5!
+DEBUG (0): PANCOORD IS ACTIVE
+DEBUG (1): TIMER FIRED node: 1
+DEBUG (1): Node: 1 tries to send CONNECT message
+DEBUG (1): Sending packet at time 0:0:0.976562510 
+DEBUG (0): TYPE 0: CONNECT message received------------------------------------------------------
+DEBUG (0): PAN COORD tries to send CONNACK message
+DEBUG (0): Sending packet at time 0:0:0.982238746 
+DEBUG (1): Packet sent... at time 0:0:0.982406592 
+DEBUG (1): TYPE 1: CONNACK message received------------------------------------------------------
+DEBUG (1): Sending packet at time 0:0:0.987029978 
+DEBUG (0): Packet sent... at time 0:0:0.987197823 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 1 topic 0-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:0.988784728 
+DEBUG (1): Packet sent... at time 0:0:0.988952574 
+DEBUG (1): TYPE 3: SUBACK message received------------------------------------------------------
+DEBUG (1): Sending packet at time 0:0:0.998901246 
+DEBUG (0): Packet sent... at time 0:0:0.999069092 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 1 topic 1-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:1.004516448 
+DEBUG (1): Packet sent... at time 0:0:1.004684294 
+DEBUG (1): TYPE 3: SUBACK message received------------------------------------------------------
+DEBUG (0): Packet sent... at time 0:0:1.007858103 
+DEBUG (2): TIMER FIRED node: 2
+DEBUG (2): Node: 2 tries to send CONNECT message
+DEBUG (2): Sending packet at time 0:0:1.953125010 
+DEBUG (0): TYPE 0: CONNECT message received------------------------------------------------------
+DEBUG (0): PAN COORD tries to send CONNACK message
+DEBUG (0): Sending packet at time 0:0:1.960205046 
+DEBUG (2): Packet sent... at time 0:0:1.960372892 
+DEBUG (2): TYPE 1: CONNACK message received------------------------------------------------------
+DEBUG (2): Sending packet at time 0:0:1.962570145 
+DEBUG (0): Packet sent... at time 0:0:1.962737991 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 2 topic 0-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:1.965652402 
+DEBUG (2): Packet sent... at time 0:0:1.965820248 
+DEBUG (2): TYPE 3: SUBACK message received------------------------------------------------------
+DEBUG (0): Packet sent... at time 0:0:1.969283973 
+DEBUG (3): TIMER FIRED node: 3
+DEBUG (3): Node: 3 tries to send CONNECT message
+DEBUG (3): Sending packet at time 0:0:2.929687510 
+DEBUG (0): TYPE 0: CONNECT message received------------------------------------------------------
+DEBUG (0): PAN COORD tries to send CONNACK message
+DEBUG (0): Sending packet at time 0:0:2.932083125 
+DEBUG (3): Packet sent... at time 0:0:2.932250971 
+DEBUG (3): TYPE 1: CONNACK message received------------------------------------------------------
+DEBUG (3): Sending packet at time 0:0:2.937759362 
+DEBUG (0): Packet sent... at time 0:0:2.937927208 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 3 topic 1-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:2.940978948 
+DEBUG (3): Packet sent... at time 0:0:2.941146793 
+DEBUG (3): TYPE 3: SUBACK message received------------------------------------------------------
+DEBUG (3): Sending packet at time 0:0:2.947692776 
+DEBUG (0): Packet sent... at time 0:0:2.947860621 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 3 topic 2-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:2.950958137 
+DEBUG (3): Packet sent... at time 0:0:2.951125983 
+DEBUG (3): TYPE 3: SUBACK message received------------------------------------------------------
+DEBUG (0): Packet sent... at time 0:0:2.956954806 
+DEBUG (4): TIMER FIRED node: 4
+DEBUG (4): Node: 4 tries to send CONNECT message
+DEBUG (4): Sending packet at time 0:0:3.906250010 
+DEBUG (0): TYPE 0: CONNECT message received------------------------------------------------------
+DEBUG (0): PAN COORD tries to send CONNACK message
+DEBUG (0): Sending packet at time 0:0:3.912307713 
+DEBUG (4): Packet sent... at time 0:0:3.912475559 
+DEBUG (4): TYPE 1: CONNACK message received------------------------------------------------------
+DEBUG (4): Sending packet at time 0:0:3.917266791 
+DEBUG (0): Packet sent... at time 0:0:3.917434637 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 4 topic 1-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:3.919906546 
+DEBUG (4): Packet sent... at time 0:0:3.920074392 
+DEBUG (4): TYPE 3: SUBACK message received------------------------------------------------------
+DEBUG (0): Packet sent... at time 0:0:3.925277608 
+DEBUG (5): TIMER FIRED node: 5
+DEBUG (5): Node: 5 tries to send CONNECT message
+DEBUG (5): Sending packet at time 0:0:4.882812510 
+DEBUG (0): TYPE 0: CONNECT message received------------------------------------------------------
+DEBUG (0): PAN COORD tries to send CONNACK message
+DEBUG (0): Sending packet at time 0:0:4.886474598 
+DEBUG (5): Packet sent... at time 0:0:4.886642443 
+DEBUG (5): TYPE 1: CONNACK message received------------------------------------------------------
+DEBUG (5): Sending packet at time 0:0:4.897033618 
+DEBUG (0): Packet sent... at time 0:0:4.897201464 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 5 topic 2-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:4.902862441 
+DEBUG (5): Packet sent... at time 0:0:4.903030287 
+DEBUG (5): TYPE 3: SUBACK message received------------------------------------------------------
+DEBUG (0): Packet sent... at time 0:0:4.904479864 
+DEBUG (6): TIMER FIRED node: 6
+DEBUG (6): Node: 6 tries to send CONNECT message
+DEBUG (6): Sending packet at time 0:0:5.859375010 
+DEBUG (0): TYPE 0: CONNECT message received------------------------------------------------------
+DEBUG (0): PAN COORD tries to send CONNACK message
+DEBUG (0): Sending packet at time 0:0:5.867965658 
+DEBUG (6): Packet sent... at time 0:0:5.868133503 
+DEBUG (6): TYPE 1: CONNACK message received------------------------------------------------------
+DEBUG (6): Sending packet at time 0:0:5.876449495 
+DEBUG (0): Packet sent... at time 0:0:5.876617341 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 6 topic 0-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:5.879379165 
+DEBUG (6): Packet sent... at time 0:0:5.879547011 
+DEBUG (6): TYPE 3: SUBACK message received------------------------------------------------------
+DEBUG (6): Sending packet at time 0:0:5.884780745 
+DEBUG (0): Packet sent... at time 0:0:5.884948591 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 6 topic 1-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:5.891097847 
+DEBUG (6): Packet sent... at time 0:0:5.891265693 
+DEBUG (6): TYPE 3: SUBACK message received------------------------------------------------------
+DEBUG (6): Sending packet at time 0:0:5.899856341 
+DEBUG (0): Packet sent... at time 0:0:5.900024186 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 6 topic 2-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:5.906097149 
+DEBUG (6): Packet sent... at time 0:0:5.906264995 
+DEBUG (6): TYPE 3: SUBACK message received------------------------------------------------------
+DEBUG (0): Packet sent... at time 0:0:5.908202850 
+DEBUG (7): TIMER FIRED node: 7
+DEBUG (7): Node: 7 tries to send CONNECT message
+DEBUG (7): Sending packet at time 0:0:6.835937510 
+DEBUG (0): TYPE 0: CONNECT message received------------------------------------------------------
+DEBUG (0): PAN COORD tries to send CONNACK message
+DEBUG (0): Sending packet at time 0:0:6.842437716 
+DEBUG (7): Packet sent... at time 0:0:6.842605561 
+DEBUG (7): TYPE 1: CONNACK message received------------------------------------------------------
+DEBUG (7): Sending packet at time 0:0:6.846252391 
+DEBUG (0): Packet sent... at time 0:0:6.846420236 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 7 topic 0-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:6.849670340 
+DEBUG (7): Packet sent... at time 0:0:6.849838185 
+DEBUG (7): TYPE 3: SUBACK message received------------------------------------------------------
+DEBUG (0): Packet sent... at time 0:0:6.854431054 
+DEBUG (8): TIMER FIRED node: 8
+DEBUG (8): Node: 8 tries to send CONNECT message
+DEBUG (8): Sending packet at time 0:0:7.812500010 
+DEBUG (0): TYPE 0: CONNECT message received------------------------------------------------------
+DEBUG (0): PAN COORD tries to send CONNACK message
+DEBUG (0): Sending packet at time 0:0:7.820175136 
+DEBUG (8): Packet sent... at time 0:0:7.820342981 
+DEBUG (8): TYPE 1: CONNACK message received------------------------------------------------------
+DEBUG (8): Sending packet at time 0:0:7.828964147 
+DEBUG (0): Packet sent... at time 0:0:7.829131993 
+DEBUG (0): TYPE 2: SUBSCRIBE message received from node 8 topic 1-------------------------------
+DEBUG (0): PAN COORD tries to send SUBACK message
+DEBUG (0): Sending packet at time 0:0:7.831405539 
+DEBUG (8): Packet sent... at time 0:0:7.831573385 
+DEBUG (0): Packet sent... at time 0:0:7.837783675 
+DEBUG (1): PUBLISH MESSAGE node:1 topic: 2 value: 78------------------------------
+DEBUG (1): Sending packet at time 0:0:9.765625010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:9.773696862 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (1): Packet sent... at time 0:0:9.773864708 
+DEBUG (0): Packet sent... at time 0:0:9.781845008 
+DEBUG (2): PUBLISH MESSAGE node:2 topic: 0 value: 77------------------------------
+DEBUG (2): Sending packet at time 0:0:10.742187510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:10.752090406 
+DEBUG (0): FORWARDING on topic 0 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 2--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 7--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (2): Packet sent... at time 0:0:10.752258252 
+DEBUG (0): Packet sent... at time 0:0:10.761978043 
+DEBUG (3): PUBLISH MESSAGE node:3 topic: 0 value: 56------------------------------
+DEBUG (3): Sending packet at time 0:0:11.718750010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:11.722564685 
+DEBUG (0): FORWARDING on topic 0 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 2--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 7--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (3): Packet sent... at time 0:0:11.722732530 
+DEBUG (0): Packet sent... at time 0:0:11.731704646 
+DEBUG (4): PUBLISH MESSAGE node:4 topic: 0 value: 40------------------------------
+DEBUG (4): Sending packet at time 0:0:12.695312510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:12.705917306 
+DEBUG (0): FORWARDING on topic 0 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 2--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 7--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (4): Packet sent... at time 0:0:12.706085152 
+DEBUG (0): Packet sent... at time 0:0:12.711166299 
+DEBUG (5): PUBLISH MESSAGE node:5 topic: 2 value: 54------------------------------
+DEBUG (5): Sending packet at time 0:0:13.671875010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:13.675491321 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (5): Packet sent... at time 0:0:13.675659167 
+DEBUG (0): Packet sent... at time 0:0:13.678588838 
+DEBUG (6): PUBLISH MESSAGE node:6 topic: 0 value: 87------------------------------
+DEBUG (6): Sending packet at time 0:0:14.648437510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:14.656433068 
+DEBUG (0): FORWARDING on topic 0 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 2--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 7--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (6): Packet sent... at time 0:0:14.656600914 
+DEBUG (0): Packet sent... at time 0:0:14.657867386 
+DEBUG (7): PUBLISH MESSAGE node:7 topic: 1 value: 18------------------------------
+DEBUG (7): Sending packet at time 0:0:15.625000010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:15.630813574 
+DEBUG (0): FORWARDING on topic 1 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 4--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 8--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (7): Packet sent... at time 0:0:15.630981420 
+DEBUG (0): Packet sent... at time 0:0:15.638839650 
+DEBUG (8): PUBLISH MESSAGE node:8 topic: 2 value: 31------------------------------
+DEBUG (8): Sending packet at time 0:0:16.601562510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:16.607772800 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (8): Packet sent... at time 0:0:16.607940646 
+DEBUG (0): Packet sent... at time 0:0:16.614791802 
+DEBUG (1): PUBLISH MESSAGE node:1 topic: 1 value: 28------------------------------
+DEBUG (1): Sending packet at time 0:0:18.554687510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:18.562118496 
+DEBUG (0): FORWARDING on topic 1 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 4--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 8--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (1): Packet sent... at time 0:0:18.562286342 
+DEBUG (0): Packet sent... at time 0:0:18.563720660 
+DEBUG (2): PUBLISH MESSAGE node:2 topic: 1 value: 63------------------------------
+DEBUG (2): Sending packet at time 0:0:19.531250010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:19.536712624 
+DEBUG (0): FORWARDING on topic 1 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 4--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 8--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (2): Packet sent... at time 0:0:19.536880470 
+DEBUG (0): Packet sent... at time 0:0:19.539154016 
+DEBUG (3): PUBLISH MESSAGE node:3 topic: 0 value: 57------------------------------
+DEBUG (3): Sending packet at time 0:0:20.507812510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:20.515792810 
+DEBUG (0): FORWARDING on topic 0 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 2--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 7--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (3): Packet sent... at time 0:0:20.515960655 
+DEBUG (0): Packet sent... at time 0:0:20.518173167 
+DEBUG (4): PUBLISH MESSAGE node:4 topic: 2 value: 84------------------------------
+DEBUG (4): Sending packet at time 0:0:21.484375010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:21.485916138 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (4): Packet sent... at time 0:0:21.486083984 
+DEBUG (0): Packet sent... at time 0:0:21.492462121 
+DEBUG (5): PUBLISH MESSAGE node:5 topic: 2 value: 27------------------------------
+DEBUG (5): Sending packet at time 0:0:22.460937510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:22.468093840 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (5): Packet sent... at time 0:0:22.468261686 
+DEBUG (0): Packet sent... at time 0:0:22.471801704 
+DEBUG (6): PUBLISH MESSAGE node:6 topic: 0 value: 1------------------------------
+DEBUG (6): Sending packet at time 0:0:23.437500010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:23.442062361 
+DEBUG (0): FORWARDING on topic 0 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 2--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 7--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (6): Packet sent... at time 0:0:23.442230207 
+DEBUG (0): Packet sent... at time 0:0:23.450057920 
+DEBUG (7): PUBLISH MESSAGE node:7 topic: 0 value: 48------------------------------
+DEBUG (7): Sending packet at time 0:0:24.414062510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:24.417572011 
+DEBUG (0): FORWARDING on topic 0 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 2--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 7--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (7): Packet sent... at time 0:0:24.417739856 
+DEBUG (0): Packet sent... at time 0:0:24.427703787 
+DEBUG (8): PUBLISH MESSAGE node:8 topic: 1 value: 90------------------------------
+DEBUG (8): Sending packet at time 0:0:25.390625010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:25.400787304 
+DEBUG (0): FORWARDING on topic 1 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 4--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 8--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (8): Packet sent... at time 0:0:25.400955149 
+DEBUG (0): Packet sent... at time 0:0:25.403381283 
+DEBUG (1): PUBLISH MESSAGE node:1 topic: 2 value: 80------------------------------
+DEBUG (1): Sending packet at time 0:0:27.343750010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:27.347335804 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (1): Packet sent... at time 0:0:27.347503650 
+DEBUG (0): Packet sent... at time 0:0:27.355560243 
+DEBUG (2): PUBLISH MESSAGE node:2 topic: 1 value: 68------------------------------
+DEBUG (2): Sending packet at time 0:0:28.320312510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:28.321640016 
+DEBUG (0): FORWARDING on topic 1 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 4--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 8--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (2): Packet sent... at time 0:0:28.321807862 
+DEBUG (0): Packet sent... at time 0:0:28.329635575 
+DEBUG (3): PUBLISH MESSAGE node:3 topic: 1 value: 24------------------------------
+DEBUG (3): Sending packet at time 0:0:29.296875010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:29.302780126 
+DEBUG (0): FORWARDING on topic 1 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 4--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 8--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (3): Packet sent... at time 0:0:29.302947972 
+DEBUG (0): Packet sent... at time 0:0:29.308578432 
+DEBUG (4): PUBLISH MESSAGE node:4 topic: 2 value: 68------------------------------
+DEBUG (4): Sending packet at time 0:0:30.273437510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:30.282928421 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (4): Packet sent... at time 0:0:30.283096267 
+DEBUG (0): Packet sent... at time 0:0:30.287551807 
+DEBUG (5): PUBLISH MESSAGE node:5 topic: 2 value: 0------------------------------
+DEBUG (5): Sending packet at time 0:0:31.250000010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:31.257324186 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (5): Packet sent... at time 0:0:31.257492031 
+DEBUG (0): Packet sent... at time 0:0:31.263336113 
+DEBUG (6): PUBLISH MESSAGE node:6 topic: 2 value: 77------------------------------
+DEBUG (6): Sending packet at time 0:0:32.226562510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:32.229949941 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (6): Packet sent... at time 0:0:32.230117787 
+DEBUG (0): Packet sent... at time 0:0:32.236923167 
+DEBUG (7): PUBLISH MESSAGE node:7 topic: 0 value: 0------------------------------
+DEBUG (7): Sending packet at time 0:0:33.203125010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:33.209442111 
+DEBUG (0): FORWARDING on topic 0 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 2--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 7--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (7): Packet sent... at time 0:0:33.209609957 
+DEBUG (0): Packet sent... at time 0:0:33.217376635 
+DEBUG (8): PUBLISH MESSAGE node:8 topic: 0 value: 32------------------------------
+DEBUG (8): Sending packet at time 0:0:34.179687510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:34.187698327 
+DEBUG (0): FORWARDING on topic 0 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 2--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 7--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (8): Packet sent... at time 0:0:34.187866173 
+DEBUG (0): Packet sent... at time 0:0:34.193939135 
+DEBUG (1): PUBLISH MESSAGE node:1 topic: 1 value: 17------------------------------
+DEBUG (1): Sending packet at time 0:0:36.132812510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:36.134765623 
+DEBUG (0): FORWARDING on topic 1 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 4--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 8--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (1): Packet sent... at time 0:0:36.134933469 
+DEBUG (0): Packet sent... at time 0:0:36.138977024 
+DEBUG (2): PUBLISH MESSAGE node:2 topic: 2 value: 99------------------------------
+DEBUG (2): Sending packet at time 0:0:37.109375010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:37.113540635 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (2): Packet sent... at time 0:0:37.113708480 
+DEBUG (0): Packet sent... at time 0:0:37.119140578 
+DEBUG (3): PUBLISH MESSAGE node:3 topic: 2 value: 34------------------------------
+DEBUG (3): Sending packet at time 0:0:38.085937510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:38.092132542 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (3): Packet sent... at time 0:0:38.092300387 
+DEBUG (0): Packet sent... at time 0:0:38.098831111 
+DEBUG (4): PUBLISH MESSAGE node:4 topic: 1 value: 98------------------------------
+DEBUG (4): Sending packet at time 0:0:39.062500010 
+DEBUG (4): Packet sent... at time 0:0:39.064575193 
+DEBUG (5): PUBLISH MESSAGE node:5 topic: 1 value: 62------------------------------
+DEBUG (5): Sending packet at time 0:0:40.039062510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:40.042541493 
+DEBUG (0): FORWARDING on topic 1 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 4--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 8--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (5): Packet sent... at time 0:0:40.042709339 
+DEBUG (0): Packet sent... at time 0:0:40.046844447 
+DEBUG (6): PUBLISH MESSAGE node:6 topic: 1 value: 10------------------------------
+DEBUG (6): Sending packet at time 0:0:41.015625010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:41.019424426 
+DEBUG (0): FORWARDING on topic 1 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 4--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 8--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (6): Packet sent... at time 0:0:41.019592272 
+DEBUG (0): Packet sent... at time 0:0:41.026077219 
+DEBUG (7): PUBLISH MESSAGE node:7 topic: 0 value: 61------------------------------
+DEBUG (7): Sending packet at time 0:0:41.992187510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:42.001892043 
+DEBUG (0): FORWARDING on topic 0 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 2--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 7--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (7): Packet sent... at time 0:0:42.002059888 
+DEBUG (0): Packet sent... at time 0:0:42.004150330 
+DEBUG (8): PUBLISH MESSAGE node:8 topic: 0 value: 61------------------------------
+DEBUG (8): Sending packet at time 0:0:42.968750010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:42.975051853 
+DEBUG (0): FORWARDING on topic 0 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 2--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 0 to subscriber 7--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (8): Packet sent... at time 0:0:42.975219698 
+DEBUG (0): Packet sent... at time 0:0:42.977874712 
+DEBUG (1): PUBLISH MESSAGE node:1 topic: 1 value: 3------------------------------
+DEBUG (1): Sending packet at time 0:0:44.921875010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:44.926422102 
+DEBUG (0): FORWARDING on topic 1 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 4--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 8--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (1): Packet sent... at time 0:0:44.926589948 
+DEBUG (0): Packet sent... at time 0:0:44.929626429 
+DEBUG (2): PUBLISH MESSAGE node:2 topic: 2 value: 57------------------------------
+DEBUG (2): Sending packet at time 0:0:45.898437510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:45.907272297 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (2): Packet sent... at time 0:0:45.907440143 
+DEBUG (0): Packet sent... at time 0:0:45.913604657 
+DEBUG (3): PUBLISH MESSAGE node:3 topic: 2 value: 7------------------------------
+DEBUG (3): Sending packet at time 0:0:46.875000010 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:46.879013048 
+DEBUG (0): FORWARDING on topic 2 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 5--------------------------------------------
+DEBUG (0): FORWARDING on topic 2 to subscriber 6--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (3): Packet sent... at time 0:0:46.879180893 
+DEBUG (0): Packet sent... at time 0:0:46.880538918 
+DEBUG (4): PUBLISH MESSAGE node:4 topic: 1 value: 49------------------------------
+DEBUG (4): Sending packet at time 0:0:47.851562510 
+DEBUG (0): TYPE 4: PUBLISH message received------------------------------------------------------
+DEBUG (0): Sending packet at time 0:0:47.861587475 
+DEBUG (0): FORWARDING on topic 1 to subscriber 1--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 3--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 4--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 6--------------------------------------------
+DEBUG (0): FORWARDING on topic 1 to subscriber 8--------------------------------------------
+DEBUG (0): Sending PUB messages to Node-RED
+DEBUG (4): Packet sent... at time 0:0:47.861755321 
+DEBUG (0): Packet sent... at time 0:0:47.865631031 
+
+
+
+Simulation finished!
